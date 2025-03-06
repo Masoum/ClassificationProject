@@ -17,29 +17,29 @@ Churn analysis is a method used by organizations to understand the rate at which
 
 ## Notebooks
 
-You can find all the models' notebooks in [notebook](../notebook/)
+You can find all the models' notebooks in [notebook](./notebook/)
 
 ---
 ## Data Cleaning
 
-Data cleaning is crucial for data analysis. The cleaned data can be found here [Cleaned Dataset](data/churn_cleaned.csv)
+Data cleaning is crucial for data analysis. The cleaned data can be found here [Cleaned Dataset](./data/churn_cleaned.csv)
 
 ---
 ## Analysis
 
 The churn reason were analyzed to pinpoint the factors that pushed a client to leave the company.
 
-![Churn Reason Distribution](../graph/ChurnReason.png)
+![Churn Reason Distribution](./graph/ChurnReason.png)
 
 </br></br>
 
 The distribution of the 'Tenure Months' column indicated that it was going a good predictive feature.
-![TenureMonths Distribution](../graph/TenureMonths.png)
+![TenureMonths Distribution](./graph/TenureMonths.png)
 
 </br></br>
 
 The distribution of the 'Contract' column for Churn clients indicated that it was going a good predictive feature.
-![TenureMonths Distribution](../graph/Contract.png)
+![TenureMonths Distribution](./graph/Contract.png)
 
 </br></br>
 By looking at the correlation between the various columns, we noticed that all the categorical columns that contains a category 'No internet service' is in fact a perfect replica of the columns 'Internet Service' with the category value of 'No'.
@@ -47,7 +47,7 @@ By looking at the correlation between the various columns, we noticed that all t
 Therefore, all categorical columns containing the category 'No internet service' were cleaned, with the exception of the column 'Internet Service'.
 
 
-![Correlation Heatmap](../graph/Correlation_heatmap_all.png)
+![Correlation Heatmap](./graph/Correlation_heatmap_all.png)
 
 </br></br>
 
@@ -56,7 +56,7 @@ Therefore, all categorical columns containing the category 'No internet service'
 
 Most regression models can only accept numeric values. Therefore, feature engineered is a crucial step to transform categorical columns into numerical columns.
 
-In addition, this is where we will be finding the best predictors of Price for our classification models. Four methods will be use and compared to find the best predictors: The feature engineed csv file can be find in [Feature Engineered Dataset](../data/churn_cleaned_featEng.xlsx)
+In addition, this is where we will be finding the best predictors of Price for our classification models. Four methods will be use and compared to find the best predictors: The feature engineed csv file can be find in [Feature Engineered Dataset](./data/churn_cleaned_featEng.xlsx)
 The best predictors will be used to find the best suitable regression model for the Residential Housing Rental Price accross Canada. 
 
 </br></br>
