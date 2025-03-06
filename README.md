@@ -22,7 +22,7 @@ You can find all the models' notebooks in [notebook](./notebook/)
 ---
 ## Data Cleaning
 
-Data cleaning is crucial for data analysis. The cleaned data can be found here [Cleaned Dataset](./data/churn_cleaned.csv)
+Data cleaning is crucial for data analysis. The cleaned data can be found here [Cleaned Dataset](./data/churn_cleaned.xlsx)
 
 ---
 ## Analysis
